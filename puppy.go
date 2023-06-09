@@ -10,10 +10,10 @@ func Barks() string {
 	return "Woof! Woof!"
 }
 
-func BigBark() {
+func BigBark() string {
 	return dog.WhenGrowUp(Bark())
 }
 
-func BigBarks() {
+func BigBarks() string {
 	return dog.WhenGrowUp(Barks())
 }
